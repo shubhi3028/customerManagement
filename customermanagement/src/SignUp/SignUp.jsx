@@ -15,7 +15,7 @@ const SignUp =()=>{
               <img
                 alt="Login V2"
                 className="img-fluid login-img"
-                src="assets/images/dashboard/login-v2.svg"
+                src="assets/images/logo/dashboardCM2.png"
               />
             </div>
           </div>
