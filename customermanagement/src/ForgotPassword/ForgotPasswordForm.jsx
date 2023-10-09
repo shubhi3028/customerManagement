@@ -8,11 +8,7 @@ const ForgotPasswordForm = () => {
             href="#"
             className="brand-icon d-flex align-items-center text-primary"
           >
-            <img
-              src="assets/images/logo/customermanagement.png"
-              alt="CustomerManagement"
-              style={{ height: 70 }}
-            />
+  <img src="./assets/img/auth-password-reset.svg" class="w240 mb-4" alt="" />           
           </a>
         </div>
         <h1 className="d-flex">Forgot password?</h1>

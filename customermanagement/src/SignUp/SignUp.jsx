@@ -15,7 +15,7 @@ const SignUp =()=>{
               <img
                 alt="Login V2"
                 className="img-fluid login-img"
-                src="assets/images/logo/dashboardCM2.png"
+                src="assets/img/dashboardCM2.png"
               />
             </div>
           </div>
@@ -34,7 +34,6 @@ const SignUp =()=>{
       </div>
     </div>
   </div>
-  {/* Jquery Core Js */}
 </>
     );
     return design;

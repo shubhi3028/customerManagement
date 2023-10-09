@@ -3,7 +3,8 @@
  import SignUp from "../SignUp/SignUp";
  import Error from "./Error";
 import ForgotPassword from "../ForgotPassword/ForgotPassword";
-import Admin from "../Admin/Admin";
+import AdminUi from "../Admin/AdminUi";
+import NavbarBox from "./Navbar/NavBarBox";
 const MainContent = () => {
     const path = window.location.pathname;
   
@@ -17,7 +18,10 @@ const MainContent = () => {
         return <ForgotPassword />;
       }
       else if(path==='/admin'){
-        return <Admin/>
+        return <AdminUi/>
+      }
+      else if(path==='/navbarbox'){
+        return <NavbarBox/>
       }
     else {
         return <Error/>;

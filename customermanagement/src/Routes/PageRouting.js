@@ -4,7 +4,8 @@ import MainContent from "../Component/MainContent";
 import{Routes,Route}from "react-router-dom";
 import SignUp from "../SignUp/SignUp";
 import ForgotPassword from "../ForgotPassword/ForgotPassword";
-import admin from "../Admin/Admin";
+import AdminUi from "../Admin/AdminUi";
+import NavbarBox from "../Component/Navbar/NavBarBox";
 
 
 const PageRouting =()=>{
@@ -18,7 +19,10 @@ const design=(
 <Route exact path="/login" component={Login} />
 <Route exact path="/signup" component={SignUp}/>
 <Route exact path="/forgotpassword" component={ForgotPassword}/>
-<Route exact path="/admin" component={admin}/>
+<Route exact path="/admin" component={AdminUi}/>
+<Route exact path="/navbarbox" component={NavbarBox}/>
+
+
 </Routes>
 </>
 );

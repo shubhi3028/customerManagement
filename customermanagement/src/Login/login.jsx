@@ -14,7 +14,7 @@ const Login = () =>{
               <img
                 alt="Login V2"
                 className="img-fluid dahboard-img"
-                src="assets/images/logo/dashboardCM2.png"
+                src="assets/img/dashboardCM2.png"
               />
             </div>
           </div>

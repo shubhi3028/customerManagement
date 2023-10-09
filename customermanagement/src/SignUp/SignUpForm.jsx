@@ -5,7 +5,7 @@ const SignUpForm = () => {
       <div className="mb-4 ">
         <a href="#" className="brand-icon align-items-center text-primary">
           <img
-            src="assets/images/logo/customermanagement.png"
+            src="assets/img/logo.png"
             alt="Customer Management"
             style={{ height: 90 }}
           />

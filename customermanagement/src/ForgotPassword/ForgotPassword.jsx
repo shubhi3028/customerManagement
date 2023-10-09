@@ -14,7 +14,7 @@ const ForgotPassword=()=>{
                     <img
                       alt="Login V2"
                       className="img-fluid"
-                      src="assets/images/dashboard/forgot-password-v2.svg"
+                      src="assets/img/auth-two-step.svg"
                     />
                   </div>
                 </div>
