@@ -8,19 +8,19 @@ const LoginForm =()=>{
                     className="brand-icon align-items-center text-primary"
                   >
                     <img
-                      src="assets/images/logo/customermanagement.png"
+                      src="assets/img/logo.png"
                       alt="Customer Management"
-                      style={{ height: 90 }}
-                    />
+                      style={{ height: 70 }}
+                      />
                   </a>
                 </div>
                 <div className="col-12">
                   <div className="">
-                    <label className="form-label">Username/Mobile number</label>
+                    <label className="form-label">Email/Mobile number</label>
                     <input
                       type="email"
                       className="form-control form-control-sm"
-                      placeholder="Username/Mobile number"
+                      placeholder="Email/Mobile number"
                     />
                     <div className="form-label text-end pt-2">
                       <span className="justify-content-between">

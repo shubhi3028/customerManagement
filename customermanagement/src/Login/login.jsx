@@ -13,8 +13,8 @@ const Login = () =>{
             <div className="w-100 d-lg-flex align-items-center justify-content-center px-5">
               <img
                 alt="Login V2"
-                className="img-fluid login-img"
-                src="assets/images/dashboard/login-v2.svg"
+                className="img-fluid dahboard-img"
+                src="assets/img/dashboardCM2.png"
               />
             </div>
           </div>

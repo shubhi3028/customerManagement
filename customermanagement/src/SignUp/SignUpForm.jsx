@@ -5,7 +5,7 @@ const SignUpForm = () => {
       <div className="mb-4 ">
         <a href="#" className="brand-icon align-items-center text-primary">
           <img
-            src="assets/images/logo/customermanagement.png"
+            src="assets/img/logo.png"
             alt="Customer Management"
             style={{ height: 90 }}
           />
@@ -22,6 +22,16 @@ const SignUpForm = () => {
         </div>
       </div>
       <div className="col-12">
+        <div className="">
+          <label className="form-label">Enter a email</label>
+          <input
+            type="email"
+            className="form-control form-control-sm"
+            placeholder="Email"
+          />
+        </div>
+      </div>
+      <div className="col-12">
         <div className="mb-2">
           <div className="form-label">
             <span className="d-flex justify-content-between align-items-center">
@@ -30,7 +40,7 @@ const SignUpForm = () => {
           </div>
           <input
             type="number"
-            className="form-control form-control-sm"
+            className="form-control form-control-sm" 
             placeholder="(+91) 222 55 685 22"
           />
         </div>
@@ -49,27 +59,13 @@ const SignUpForm = () => {
           />
         </div>
       </div>
-      <div className="col-12">
-        <div className="mb-2">
-          <div className="form-label">
-            <span className="d-flex justify-content-between align-items-center">
-              Confirm password
-            </span>
-          </div>
-          <input
-            type="password"
-            className="form-control form-control-sm"
-            placeholder="********"
-          />
-        </div>
-      </div>
       <div className="col-lg-12 col-md-12 mt-4">
         <a
           className="btn btn-sm btn-block btn-primary lift px-3"
-          href="/auto_two_step"
+          href="/"
           title=""
         >
-          Verify
+          Register
         </a>
       </div>
     </form>
