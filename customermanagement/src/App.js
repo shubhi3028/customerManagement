@@ -3,9 +3,9 @@ import PageRouting from "../src/Routes/PageRouting"
 
 function App() {
   return (
-   <>
-   <PageRouting/>
-</>
+  <>
+    <PageRouting/>
+  </>
   
   );
 }
