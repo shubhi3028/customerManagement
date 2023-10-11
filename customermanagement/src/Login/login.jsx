@@ -16,6 +16,8 @@ const Login = () =>{
                 className="img-fluid dahboard-img"
                 src="assets/img/dashboardCM2.png"
               />
+
+              
             </div>
           </div>
           <div className="col-lg-6 d-flex justify-content-center align-items-center">
