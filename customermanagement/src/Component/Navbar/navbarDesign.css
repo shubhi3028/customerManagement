@@ -1,0 +1,33 @@
+.email-form {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .email-box {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  i {
+    cursor: pointer;
+    color: #007bff;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  

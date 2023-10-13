@@ -17,38 +17,24 @@ function AdminUi() {
   const [successMsg, setSuccessMsg] = useState('');
   const [errorMsg, setErrorMsg] = useState('');
 
-  useEffect(() => {
-    // Simulate fetching user data (replace this with actual API call)
-    const fetchUserList = async () => {
-      // Simulated user data
-      const fakeUserList = [
-        {
-          id: 1,
-          username: 'Shivani Bist(Barman)',
-          email: 'shivani.sanjay@gmail.com',
-          phoneNumber: '9958908501',
-        },
-        {
-          id: 2,
-          username: 'Jane Smith',
-          email: 'jane@example.com',
-          phoneNumber: '9876543210',
-        },
-        // Add more fake user objects as needed
-      ];
+const [data, setData] = useState('');
 
-      // Simulate a delay to mimic API response time
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-
-      setUserList(fakeUserList);
-    };
-
-    // Call the fetchUserList function
-    fetchUserList();
-  }, []);
-  const toggleStatus = (userId) => {
-    // ... your toggleStatus logic remains unchanged
-  };
+useEffect(() => {
+  const apiUrl = 'http://localhost:81/v1/user';
+  fetch(apiUrl)
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      return response.text();
+    })
+    .then((responseText) => {
+      setData(responseText);
+    })
+    .catch((error) => {
+      console.error('Fetch error:', error);
+    });
+}, []);
 
   return (
     <div className="container-fluid">
@@ -121,3 +107,41 @@ function AdminUi() {
 }
 
 export default AdminUi;
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const [data, setData] = useState('');
+
+// useEffect(() => {
+//   // Define the URL of the Spring Boot API
+//   const apiUrl = 'http://localhost:8080/api/data'; // Replace with your API URL
+
+//   // Use the fetch API to make a GET request
+//   fetch(apiUrl)
+//     .then((response) => {
+//       if (!response.ok) {
+//         throw new Error('Network response was not ok');
+//       }
+//       return response.text();
+//     })
+//     .then((responseText) => {
+//       // Update the state with the response data
+//       setData(responseText);
+//     })
+//     .catch((error) => {
+//       console.error('Fetch error:', error);
+//     });
+// }, []);
+
+
+

@@ -52,7 +52,6 @@ const NavbarBox =()=>{
           value={to2Value}
           onChange={handleTo2Change}
         />
-    
       </div>
 <br/>
       {/* CC Boxes */}
@@ -83,3 +82,13 @@ const NavbarBox =()=>{
 
 }
 export default NavbarBox;
+
+
+
+
+
+
+
+
+
+
